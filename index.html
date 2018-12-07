@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Kaushan+Script|Pathway+Gothic+One|Satisfy" rel="stylesheet">
+</head>
+
+<body>
+    <!--NAVIGATION/HEADER-->
+
+    <header class="animated jackInTheBox">
+        <h1>Learn JavaScript</h1>
+    </header>
+
+    <nav>
+        <a class="navlinks" href="/">Home</a> |
+        <a class="navlinks" href="#functions">Functions</a> |
+        <a class="navlinks" href="#objects">Objects</a> |
+        <a class="navlinks" href="#conditionals">Conditionals</a>
+    </nav>
+
+<!--SIDEBAR-->
+
+    <sidebar id="side"> 
+        <h3 id="sideBar">Great Resources!</h3>
+        <div>
+            <h4>JavaScript Resources</h4>
+            <ul>
+                <li><a href="https://guide.freecodecamp.org/javascript/additional-javascript-resources/" target="_blank">freeCodeCamp</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript MDN Mozilla</a></li>
+                <li><a href="https://www.w3schools.com/js/" target="_blank">W3 Schools JS Tutorials</a></li>
+            </ul>
+
+        </div>
+    
+    </sidebar>
+
+<!--INTRO-->
+
+    <div class="intro">
+        <h2 id="secondTitle">Why Learn JavaScript?</h2>
+        <p>JavaScript has become one of the most popular progamming languages. It allows you to build interactive websites.</p> 
+        <p>JavaScript hasbecome an essential web technology along with HTML and CSS, as most browsers implement JavaScript.</p> 
+        <p> Thus, You must learn JavaScript if you want to get into web development, and you must learn it well if you're planning on</p>
+        <p>  being a front-end developer or on using JavaScript for backend development. Here is some helpful information about JS:</p>
+                
+        </p>
+    </div>
+
+    <!--CONTENT-->
+
+    <article class="main">
+
+        <a id="functions"></a>
+        <h2>Functions</h2>
+        <div class="snippetOne">
+            <pre>
+                <code>
+                    <var class="functionKey">function</var> <span class="functionName">fullName</span> <span class="common">(firstName, lastName) {</span>
+                        <span class="rtrn">return</span> <span class="common">firstName + lastName;</span>
+                    <span class="common">}</span>
+                    <span class="common">console.</span><span class="lg">log</span><span class="common">(fullName(</span><span class="nmbr">"John"</span><span class="common">,</span> <span class="nmbr">" Doe"</span><span class="common">));</span>
+                </code>
+            </pre>
+        
+        </div>
+        <p class="func"> A JavaScript <code><em>function</em></code> is a block of code designed to perform a task. These are pieces of data that we declare to use later.</p>
+        <p class="func"> <code><em>functions</em></code> are executed when they are called. This is known as <em><strong>invoking</em></strong> a function. Functions always <code>return</code> a value.</p>
+        <p class="func">in JavaScript, if no <code>return</code> value is specified, the <code><em>function</em></code> will <code>return</code> undefined. <code><em>functions</em></code> are <em><strong>Objects</em></strong>.</p>
+        <p class="func"></p>
+        <h3>Here is an informational video about Functions</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R8SjM4DKK80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoOne"></iframe>
+
+        <a id="objects"></a>
+        <h2>Objects</h2>
+        <div class="snippetTwo">
+            <pre>
+                <code>
+                    <var class="objectKey">let</var> <span class="key">garden</span> <span class="common">= {</span>
+                        <span class="key">vegetable:</span> <span class="value">'zucchini'</span><span class="common">,</span>
+                        <span class="key">sun:</span> <span class="valueB">true</span><span class="common">,</span>
+                        <span class="key">size:</span> <span class="valueV">10</span>
+                        <span class="common">};</span>
+                        <span class="consLog">console</span> <span class="nmbr">.log</span><span class="common">(</span><span class="key">garden.vegetable</span><span class="common">)</span>
+                </code>
+            </pre>
+        </div>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+            making it over 2000 years old. Richard McClintock, a Latin </p>
+
+        <h3 id="aboutObj">Here is a video with more information about Objects</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PFmuCDHHpwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoTwo"></iframe>
+
+    <a id="conditionals"></a>
+        <h2>Conditionals</h2>
+        <div class="snippetThree">
+            <pre>
+                <code>  
+                    <var class="objectKey">let</var> <span class="key">isOn</span> <span class="common">=</span> <span class="valueB">true</span><span class="common">;</span>
+                    
+                    <span class="functionName">if</span> <span class="common">(</span><span class="key">isOn</span> <span class="common">==</span> <span class="valueB">true</span><span class="common">)</span> <span class="common">{</span>
+                        <span class="consLog">console</span> <span class="nmbr">.log</span><span class="common">(</span><span class="value">'The Light is On!'</span><span class="common">)</span>
+                    <span class="common">};</span>
+                </code>
+            </pre>
+        </div>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+            making it over 2000 years old. Richard McClintock, a Latin </p>
+
+        <h3 id="aboutCond">Watch the following video for more information about Conditionals</h3>   
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4eqJNLl-03U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoThree"></iframe>
+    </article>
+
+    <!--FOOTER-->
+
+    <footer>
+        <p>Made to Help Other Aspiring Developers</p>
+        <p>© 2018 JM Developer</p>
+    </footer>
+
+</body>
+
+
+</html>
