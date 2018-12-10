@@ -49,8 +49,8 @@ SIDE BAR
 
 #side {
     float: right;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 400px;
     background-color:lightgray;
     text-align: center;
     border-radius: 5px;
@@ -74,7 +74,7 @@ ul {
 
 li {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     padding-right: 35px;
     
 }
@@ -83,6 +83,11 @@ li {
 
 a:hover{
     color:rgb(70, 95, 70);
+}
+
+#sideBar {
+    margin-right: 16px;
+    
 }
 
 
